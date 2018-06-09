@@ -57,7 +57,7 @@ rob.microMove(1);
 		if (robotLocationX <= 7300 && robotLocationX >= 720 && robotLocationY >= 150 && robotLocationY <= 160)
 	        playEureka();
 	}
-
+ 
 	public static void main(String[] args) {
 	    new RobotInSpace().controlTheRobot();
 	}
